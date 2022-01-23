@@ -1,0 +1,212 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.navbar{
+    display: flex;  
+    width:100vw;
+    height:90px;
+    background-color: #42445A;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:6px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bill{
+    display:flex;
+    flex-direction: row;
+}
+.navbar-explain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.navbar-explain h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.navbar-explain h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+.navbar-explain button{
+    width: 15em;
+    height:31px;
+    background:rgb(60, 236, 60);
+    color: #000;
+    border-radius: 5px;
+    border:1px solid #000;
+    box-shadow:2px 2px 4px gray;
+    transition:0.50s;
+    cursor:pointer;
+    font-weight: 800;
+}
+.navbar-explain button:hover{
+    background:rgb(11, 167, 5);
+}
+.buttons button:hover{
+    background-color:rgb(14, 124, 250);
+    cursor: pointer;
+}
+.navbar .name{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top:7px;
+    color: rgb(60, 236, 60);
+}
+
+
+.navbar .logo{
+    width:50px;
+    height:50px;
+    border-radius: 35%;
+    margin:10px;
+    cursor:grab;
+}
+.navbar .logo:focus{
+    cursor:not-allowed;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width:450px;
+    height:40px;
+}
+/* Buttons */
+.buttons button{
+    margin-right:40px;
+    margin-top: 10px;
+    width: 9em;
+    height:31px;
+    background:rgb(5, 78, 236);
+    color: #000;
+    border-radius: 5px;
+    border:1px solid #000;
+    font-weight: 600;
+    transition: 0.50s;
+}
+@media (max-width:720px){
+    .navbar{
+        display: flex;  
+        width:45pc;
+        height:90px;
+        background-color: #42445A;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:6px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .bill{
+        display:flex;
+        flex-direction: row;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        width:420px;
+        height:30px;
+    }
+    .buttons button{
+        margin-right:13px;
+        margin-top: 10px;
+        width: 7em;
+        height:25px;
+        background:rgb(5, 78, 236);
+        color: #000;
+        border-radius: 5px;
+        border:1px solid #000;
+        font-weight: 600;
+        transition: 0.50s;
+    }
+    .navbar-explain h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    .navbar-explain h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 20px;
+    }
+    .navbar-explain button{
+        width: 10em;
+        height:28px;
+        background:rgb(60, 236, 60);
+        color: #000;
+        border-radius: 4px;
+        border:1px solid #000;
+        box-shadow:2px 2px 4px gray;
+        transition:0.50s;
+        cursor:pointer;
+        font-weight: 800;
+    }
+}
+@media (max-width:618px){
+    .navbar{
+        display: flex;  
+        width:50pc;
+        height:120px;
+        background-color: #42445A;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:6px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .bill{
+        display:flex;
+        flex-direction: row;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        width:420px;
+        height:30px;
+        margin-left: 20px;
+    }
+    .buttons button{
+        margin-right:13px;
+        margin-top: 10px;
+        width: 6em;
+        height:23px;
+        background:rgb(5, 78, 236);
+        color: #000;
+        border-radius: 5px;
+        border:1px solid #000;
+        font-weight: 600;
+        transition: 0.50s;
+        padding: 3px;
+        font-size: 13px;
+    }
+    .navbar-explain h1{
+        
+        margin-bottom: 10px;
+        margin-top: 25px;
+        font-size: 23px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .navbar-explain h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    .navbar-explain button{
+        width: 10em;
+        height:28px;
+        background:rgb(60, 236, 60);
+        color: #000;
+        border-radius: 4px;
+        border:1px solid #000;
+        box-shadow:2px 2px 4px gray;
+        transition:0.50s;
+        cursor:pointer;
+        font-weight: 800;
+    }
+}
